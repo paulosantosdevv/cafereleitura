@@ -3,7 +3,7 @@ import { initHeroSequence } from './hero-sequence';
 import { initCarousels } from './carousels';
 import { initAnimations } from './animations';
 import '@splinetool/viewer';
-import 'swiper/swiper-bundle.min.css';
+import 'swiper/css/bundle';
 
 // Inicializar Lenis para Smooth Scrolling
 const lenis = new Lenis({
