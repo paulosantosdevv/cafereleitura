@@ -10,7 +10,7 @@ export function initHeroSequence() {
 
   // Number of frames
   const frameCount = 118;
-  const currentFrame = index => `/imagens hero/img${index + 1}.jpg`;
+  const currentFrame = index => `${import.meta.env.BASE_URL}imagens hero/img${index + 1}.jpg`;
 
   const images = [];
   const frames = {

@@ -22,7 +22,7 @@ export function initCarousels() {
     logos.forEach(logo => {
       const slide = document.createElement("div");
       slide.className = "swiper-slide";
-      slide.innerHTML = `<img src="/imagens logo parceiros/${logo}" alt="Parceiro" class="partner-logo">`;
+      slide.innerHTML = `<img src="${import.meta.env.BASE_URL}imagens logo parceiros/${logo}" alt="Parceiro" class="partner-logo">`;
       wrapper.appendChild(slide);
     });
   }
